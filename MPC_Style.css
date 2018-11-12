@@ -1,25 +1,23 @@
-﻿    
+﻿
     header{
         text-align:center;
-        background:-webkit-linear-gradient(#FFFFFF 98%, #000000); 
+        background:-webkit-linear-gradient(#FFFFFF 98%, #000000);
     }
-    
+
     .head{
         text-decoration:underline overline;
     }
-    
+
     .title_img_right{
         float:right;
         opacity:1;
-        filter: grayscale(100%);
     }
-    
+
     .title_img_left{
         float:left;
         opacity:1;
-        filter: grayscale(100%);
     }
-    
+
     .body_img_right{
         float:right;
         margin-left:20px;
@@ -28,7 +26,7 @@
         box-shadow: 5px 2px 4px #DDDDDD;
         border:1px solid black;
     }
-    
+
     .body_img_left{
         float:left;
         margin-right:20px;
@@ -37,7 +35,7 @@
         box-shadow: 5px 2px 4px #DDDDDD;
         border:1px solid black;
     }
-    
+
 
 /*    p.head{
    position: fixed;
@@ -45,7 +43,7 @@
    right: 5px;
    color: red;
 }*/
-    
+
     h1 {
         font-size:250%;
         font-variant:small-caps;
@@ -53,34 +51,34 @@
         text-shadow: 5px 2px 4px #DDDDDD;
         text-transform:capitalize;
     }
-      
+
     h2 {
         font-variant:small-caps;
         text-shadow: 5px 2px 4px #DDDDDD
     }
-      
+
     #Welcome {
         width:100%;
     }
-    
+
     #Welcome .first strong {
         color:red;
     }
-      
+
     body {
         font-family: Tahoma;
     }
-      
+
     ul {
         font-style:italic;
         list-style-type:circle;
     }
-    
+
     form {
         vertical-align:top;
         display:table-cell;
     }
-    
+
     a:hover{
         /*font-size:110%;*/
         text-shadow: 5px 2px 4px #DDDDDD;
@@ -96,17 +94,17 @@
     -webkit-animation-name: colorchange;
     -webkit-animation-duration: 5s ease;*/
     }
-    
- 
+
+
 @keyframes colorchange {
-    0% {background-color: white; } 
+    0% {background-color: white; }
     100% {background-color: black; }
 }
 
 /*@-webkit-keyframes colorchange {
     from {width:0px; }
     to {width:200px; }
-    0% {background-color: white; } 
+    0% {background-color: white; }
     100% {background-color: black; }
 }*/
 
