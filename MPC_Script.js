@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 var elem = document.getElementById("name");
+=======
+/*function alertAge(age, thresh) {
+    var isAdult = (age < thresh) ? "too young": "old enough";
+>>>>>>> 6c60562f8dc700969c5fcd8b3acda67ad1fb402c
 
 function person(name, age, color) {
   this.name = name;
@@ -6,6 +11,7 @@ function person(name, age, color) {
   this.favColor = color;
   this.year  = bornYear;
 }
+<<<<<<< HEAD
 
 function bornYear() {
   return 2018 - this.age;
@@ -18,3 +24,6 @@ function printDetail() {
 var p1 = new person(prompt("Please Enter Your Name: "), 46, "Blue");
 
 printDetail();
+=======
+*/
+>>>>>>> 6c60562f8dc700969c5fcd8b3acda67ad1fb402c
