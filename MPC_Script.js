@@ -4,5 +4,3 @@ function alertAge(age, thresh) {
     alert("you are " + isAdult + " (" + age + "). Theshold is " + thresh +".");
 }
 
-alertAge(19,18);
-alertAge(16,20);
